@@ -1,0 +1,66 @@
+
+body{
+  background-image: url("fruits_pict/paper_wall.jpg");
+  color:brown;
+  font-family: monospace;
+}
+#divbody{
+  background-color: white;
+  width:700px;
+  margin:auto;
+  padding-bottom:8px;
+  border-radius:8px;
+}
+img{
+  height:50px;
+}
+h1 {
+  text-align: center;
+  font-size:40px;
+
+}
+#table{
+  width:500px;
+  /* display:block; */
+  /* align:center; */
+}
+#center{
+margin:auto;
+width:500px;
+border:2px solid brown;
+border-radius:8px;
+padding-left:30px;
+}
+
+th{
+  text-align: left;
+  font-size: 15px;
+
+}
+td{
+  text-align: left;
+}
+input{
+  text-align: center;
+  width:40px;
+}
+#result{
+  margin:auto;
+  width:250px;
+  color:brown;
+}
+#but{
+  width:120px;
+}
+#output{
+  font-weight: bold;
+  font-size: 20px;
+}
+#TOTAL{
+  font-weight: bold;
+  font-size: 20px;
+}
+#quantities{
+  font-weight: bold;
+  font-size: 20px;
+}

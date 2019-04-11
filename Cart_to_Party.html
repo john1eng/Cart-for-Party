@@ -1,0 +1,84 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type = "text/css" href = "Cart_to_Party.css">
+  </head>
+  <body>
+    <div id="divbody">
+    <h1>Grocery Cart</h1><br><br>
+    <form id = "priceItem">
+      <div id="center">
+      <table id="table">
+        <tr>
+          <th>Pictures</th>
+          <th>Fruits & Prices</th>
+          <th>Quantities</th>
+          <th id="Amounts"></th>
+        </tr>
+        <tr>
+          <td><img src = "fruits_pict/banana.jpg" alt = "banana"></img></td>
+          <td>Banana @ $0.50 each</td>
+          <td><input type="text" id = 0 ></td>
+          <td id="amt0"></td>
+        </tr>
+        <tr>
+          <td><img src = "fruits_pict/apple.jpg" alt = "apple"></img></td>
+          <td>Apple @ $1.00 each</td>
+          <td><input type="text" id = 1 ></td>
+          <td id="amt1"></td>
+        </tr>
+        <tr>
+          <td><img src = "fruits_pict/orange.jpg" alt = "orange"></img></td>
+          <td>Orange @ $1.00 each</td>
+          <td><input type="text" id = 2 ></td>
+          <td id="amt2"></td>
+        </tr>
+        <tr>
+          <td><img src = "fruits_pict/grape.jpg" alt = "grape"></img></td>
+          <td>Grape @ $3.00 per pound</td>
+          <td><input type="text" id = 3 ></td>
+          <td id="amt3"></td>
+        </tr>
+        <tr>
+          <td><img src = "fruits_pict/pear.jpg" alt = "pear"></img></td>
+          <td>Pear @ $1.25 each</td>
+          <td><input type="text" id = 4 ></td>
+          <td id="amt4"></td>
+        </tr>
+        <tr>
+          <td><img src = "fruits_pict/watermelon.jpg" alt = "watermelon"></img></td>
+          <td>Watermellon @ $5.00 each</td>
+          <td><input type="text" id = 5 ></td>
+          <td id="amt5"></td>
+        <tr>
+          <td><img src = "fruits_pict/strawberry.jpg" alt = "strawberry"></img></td>
+          <td>Strawberry @ $2.25 per box</td>
+          <td><input type="text" id = 6 ></td>
+          <td id="amt6"></td>
+        </tr>
+        <tr>
+          <td><img src = "fruits_pict/blue_berry.jpg" alt = "blue_berry"></img></td>
+          <td>Blue Berry @ 1.75 per box</td>
+          <td><input type="text" id = 7 ></td>
+          <td id="amt7"></td>
+        </tr>
+        <tr>
+          <td id="TOTAL"></td>
+          <td></td>
+          <td id="quantities"></td>
+          <td id="output"></td>
+        </tr>
+      </table>
+    </div><br>
+    </form>
+    <form id = "result">
+      <input id="but" type = "button" name = "TOTAL AMOUNT" value = "TOTAL AMOUNT" onclick = "cashRegister()">
+      <input id="but" type='button' onclick='location.reload();' value='Refresh Page' />
+    </form>
+
+
+    <script src = "Cart_to_Party.js"></script>
+  </div>
+  </body>
+</html>
